@@ -129,3 +129,5 @@ C:\Repo\Study\Udemy\Carsties\src\AuctionService\obj\Debug\net9.0\refint\AuctionS
 C:\Repo\Study\Udemy\Carsties\src\AuctionService\obj\Debug\net9.0\AuctionService.pdb
 C:\Repo\Study\Udemy\Carsties\src\AuctionService\obj\Debug\net9.0\AuctionService.genruntimeconfig.cache
 C:\Repo\Study\Udemy\Carsties\src\AuctionService\obj\Debug\net9.0\ref\AuctionService.dll
+C:\Repo\Study\Udemy\Carsties\src\AuctionService\bin\Debug\net9.0\AutoMapper.dll
+C:\Repo\Study\Udemy\Carsties\src\AuctionService\obj\Debug\net9.0\AuctionService.sourcelink.json
