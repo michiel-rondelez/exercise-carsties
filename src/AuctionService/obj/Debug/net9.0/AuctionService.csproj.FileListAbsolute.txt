@@ -131,3 +131,10 @@ C:\Repo\Study\Udemy\Carsties\src\AuctionService\obj\Debug\net9.0\AuctionService.
 C:\Repo\Study\Udemy\Carsties\src\AuctionService\obj\Debug\net9.0\ref\AuctionService.dll
 C:\Repo\Study\Udemy\Carsties\src\AuctionService\bin\Debug\net9.0\AutoMapper.dll
 C:\Repo\Study\Udemy\Carsties\src\AuctionService\obj\Debug\net9.0\AuctionService.sourcelink.json
+C:\Repo\Study\Udemy\Carsties\src\AuctionService\bin\Debug\net9.0\MassTransit.dll
+C:\Repo\Study\Udemy\Carsties\src\AuctionService\bin\Debug\net9.0\MassTransit.Abstractions.dll
+C:\Repo\Study\Udemy\Carsties\src\AuctionService\bin\Debug\net9.0\MassTransit.RabbitMqTransport.dll
+C:\Repo\Study\Udemy\Carsties\src\AuctionService\bin\Debug\net9.0\RabbitMQ.Client.dll
+C:\Repo\Study\Udemy\Carsties\src\AuctionService\bin\Debug\net9.0\Contracts.dll
+C:\Repo\Study\Udemy\Carsties\src\AuctionService\bin\Debug\net9.0\Contracts.pdb
+C:\Repo\Study\Udemy\Carsties\src\AuctionService\bin\Debug\net9.0\MassTransit.EntityFrameworkCoreIntegration.dll

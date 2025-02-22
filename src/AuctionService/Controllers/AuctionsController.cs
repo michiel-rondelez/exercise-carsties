@@ -14,12 +14,12 @@ namespace AuctionService.Controllers;
 
 [ApiController]
 [Route("api/auctions")]
-public class AuctionController : ControllerBase
+public class AuctionsController : ControllerBase
 {
         private readonly IMapper _mapper;
         private readonly AuctionDbContext _context;
         private readonly IPublishEndpoint _publishEndpoint;
-    public AuctionController(AuctionDbContext context, IMapper mapper, IPublishEndpoint publishEndpoint)
+    public AuctionsController(AuctionDbContext context, IMapper mapper, IPublishEndpoint publishEndpoint)
     {
             _publishEndpoint = publishEndpoint;
             _context = context;
@@ -82,6 +82,8 @@ public class AuctionController : ControllerBase
         auction.Item.Mileage = updateAuctionDto.Mileage ?? auction.Item.Mileage;
         auction.Item.Year = updateAuctionDto.Year ?? auction.Item.Year;
         
+        await _publishEndpoint.Publish(_mapper.Map<AuctionUpdated>(auction));
+
         var result = await _context.SaveChangesAsync() > 0;
 
         if (result) return Ok();
