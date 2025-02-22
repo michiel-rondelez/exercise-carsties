@@ -1,10 +1,12 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace AuctionService.DTOs;
-
-public class AuctionDto
+namespace Contracts
 {
-
+    public class AuctionCreated
+    {
         public Guid Id { get; set; }
         public int ReservePrice { get; set; }
         public string Seller { get; set; }
@@ -20,5 +22,6 @@ public class AuctionDto
         public int Year { get; set; }
         public string Color { get; set; }
         public int Mileage { get; set; }
-        public string ImageUrl { get; set; }
+        public string ImageUrl { get; set; }    
+    }
 }
